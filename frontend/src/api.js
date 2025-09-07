@@ -2,7 +2,7 @@ import axios from 'axios';
 
 const API = axios.create({ 
   baseURL: process.env.NODE_ENV === 'production' 
-    ? 'https://shopease-api.railway.app/api' 
+    ? 'https://YOUR-RAILWAY-URL.railway.app/api'  // Replace with your actual Railway URL
     : 'http://localhost:5000/api' 
 });
 
